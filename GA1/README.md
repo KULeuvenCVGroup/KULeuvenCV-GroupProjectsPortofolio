@@ -44,7 +44,7 @@ This project addresses the following key questions:
 
 | Name              | Contribution                                                                 | Private Repo Link |
 |-------------------|------------------------------------------------------------------------------|-------------------|
-| John Ferderigos     | Implemented HOG feature extraction and visualization                         | GitHub |
+| John Ferderigos     | Implemented HOG feature extraction and visualization. Researched different face detection approaches                         | GitHub |
 | Vasileios Panagakis       | Developed PCA pipeline and eigenface visualizations                          | GitHub |
 | Jordi Beltran Perello     | Built and evaluated classifiers, handled cross-validation                    | [GitHub](https://github.com/carolexample/cv-classe, managed Kaggle submissions, and documented experiments  | GitHub |
 | Fotios Kalioras      | Preprocessing, face detection improvements, and final report writing         | GitHub |
