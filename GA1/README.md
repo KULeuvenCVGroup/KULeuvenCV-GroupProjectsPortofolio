@@ -6,7 +6,7 @@ This project was developed as part of the Computer Vision course (H02A5a) at KU 
 
 The main objective was to **detect and classify difficult faces**, particularly distinguishing between visually similar individuals (Jesse Eisenberg vs. Michael Cera, Mila Kunis vs. Sarah Hyland). This required building robust and discriminative feature representations and evaluating their effectiveness in a real-world-inspired classification task.
 
-![MichaelAndSara](MichaelAndSara.png)
+![MichaelAndSara](Images/MichaelAndSara.png)
 
 ## Project Overview
 
@@ -65,19 +65,19 @@ These augmentations helped simulate real-world variability and improve model rob
 
 This plot shows a **HOG image** composed of line segments within each cell, oriented according to the angle of each histogram bin and scaled in brightness and length based on their gradient magnitudes.
 
-![HOG extracted image](HOG.png)
+![HOG extracted image](Images/HOG.png)
 
 ### PCA Projection of Faces in 2D
 
 This plot shows how different faces are distributed in the 2D eigenspace formed by the first two principal components.
 
-![PCA Projection](2dPCAProjection.png)
+![PCA Projection](Images/2dPCAProjection.png)
 
 ### Image Reconstruction with Increasing PCA Components
 
 This visualization demonstrates how the quality of face reconstruction improves as more principal components are used.
 
-![PCA Reconstruction](PCAReconstruction.png)
+![PCA Reconstruction](Images/PCAReconstruction.png)
 
 ## 💡 Key Insights
 - HOG features provided strong local structure representation but were sensitive to lighting and pose.
@@ -99,9 +99,9 @@ This visualization demonstrates how the quality of face reconstruction improves 
 | Name              | Contribution                                                                 | Private Repo Link |
 |-------------------|------------------------------------------------------------------------------|-------------------|
 | John Ferderigos|Implemented HOG feature extraction and visualization. Researched different face detection approaches | GitHub |
-| Vasileios Panagakis| Developed PCA pipeline and eigenface visualizations | GitHub |
-| Jordi Beltran Perello| Built and evaluated classifiers, handled cross-validation, managed Kaggle submissions| [GitHub](https://github.com/carolexample/cv-classe)| GitHub |
-| Fotios Kalioras| Preprocessing, face detection improvements, and final report writing and notebook synthesis| GitHub |
+| Vassilis Panagakis| Developed PCA pipeline and eigenface visualizations | [GitHub](https://github.com/vm-panag) |
+| Jordi Beltran Perello| Built and evaluated classifiers, handled cross-validation, managed Kaggle submissions| [GitHub](https://github.com/jordibelp) |
+| Fotis Kalioras| Preprocessing, face detection improvements, and final report writing and notebook synthesis| [GitHub](https://github.com/fothot2) |
 
 ## Limitations & Future Work
 

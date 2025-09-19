@@ -1,0 +1,29 @@
+
+---
+
+## 📂 `.gitignore`
+
+Place this in your project root as `.gitignore`:
+
+```gitignore
+# Virtual environment
+venv/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Editable install metadata
+*.egg-info/
+*.egg
+
+# VS Code workspace settings
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
